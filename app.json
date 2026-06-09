@@ -9,9 +9,11 @@
     "backgroundColor": "#0B0B1E",
     "ios": {
       "supportsTablet": true,
-      "backgroundColor": "#0B0B1E"
+      "backgroundColor": "#0B0B1E",
+      "bundleIdentifier": "com.omarrey44.pokedexjeal"
     },
     "android": {
+      "package": "com.omarrey44.pokedexjeal",
       "adaptiveIcon": {
         "backgroundColor": "#0B0B1E",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,10 +22,6 @@
       },
       "backgroundColor": "#0B0B1E",
       "permissions": [
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS",
-        "android.permission.FOREGROUND_SERVICE",
-        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
         "android.permission.RECORD_AUDIO",
         "android.permission.MODIFY_AUDIO_SETTINGS",
         "android.permission.FOREGROUND_SERVICE",
