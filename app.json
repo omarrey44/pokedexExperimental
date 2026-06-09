@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Pokédex",
-    "slug": "pokedex-app",
+    "slug": "pokedexjeal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +18,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "backgroundColor": "#0B0B1E"
+      "backgroundColor": "#0B0B1E",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,6 +37,18 @@
       "expo-font",
       "expo-splash-screen",
       "expo-audio"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a527ce3b-1527-4bd2-90ff-164fe5179915"
+      }
+    },
+    "owner": "omarrey44",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a527ce3b-1527-4bd2-90ff-164fe5179915"
+    }
   }
 }
